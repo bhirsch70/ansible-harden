@@ -1,0 +1,16 @@
+---
+# tasks file for patch
+- name: install auditd
+  yum:
+    name: audit
+    state: present
+
+- name: Update wpa_supplicant (CVE-2017-13077)
+  yum:
+    name: wpa_supplicant
+    state: latest
+
+- name: Update sudo (CVE-2017-1000368)
+  yum:
+    name: sudo
+    state: latest

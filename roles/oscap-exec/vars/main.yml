@@ -1,0 +1,17 @@
+---
+# vars file for oscap-exec
+# Available OpenScap Profiles
+# xccdf_org.ssgproject.content_profile_standard
+# xccdf_org.ssgproject.content_profile_pci-dss
+# xccdf_org.ssgproject.content_profile_C2S
+# xccdf_org.ssgproject.content_profile_rht-ccp
+# xccdf_org.ssgproject.content_profile_common
+# xccdf_org.ssgproject.content_profile_stig-rhel7-disa
+# xccdf_org.ssgproject.content_profile_stig-rhevh-upstream
+# xccdf_org.ssgproject.content_profile_ospp-rhel7
+# xccdf_org.ssgproject.content_profile_cjis-rhel7-server
+# xccdf_org.ssgproject.content_profile_docker-host
+# xccdf_org.ssgproject.content_profile_nist-800-171-cui
+
+profile:
+  - xccdf_org.ssgproject.content_profile_standard
